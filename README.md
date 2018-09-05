@@ -26,13 +26,15 @@ The following table gives the best prediction accuracy for each of the main NMR 
 | $^{13}C$ $\delta$ | 0.22 | 0.66 |
 | $^1J_{HC}$ Coupling | 0.22 | 0.66 |
 | $^3J_{HH}$ Coupling | 0.22 | 0.66 |
-|--|--|--|
-
-
 
 The corresponding methods are provided in the table below:
 
-TABLE OF BEST PREDICTION METHODS
+| NMR Parameter | Representation | Method | Dataset | 
+|:----:|:----:|:----:|:---:|
+| $^1H$ $\delta$ | SLATM | 0.66 |
+| $^{13}C$ $\delta$ | SLATM | 0.66 |
+| $^1J_{HC}$ Coupling | 0.22 | 0.66 |
+| $^3J_{HH}$ Coupling | 0.22 | 0.66 |
 
 ## Aims of the project
 Ultimately the goal of the project is to predict experimental scalar coupling constants and chemical shift for small molecules to a comparative accuracy to modern DFT methods. . . .
@@ -70,8 +72,8 @@ Several different representations have been tested so far in the project, each w
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY3MDg1NjMsLTIwMjU3MTA1MjQsLT
-EwMzczMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQx
-ODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMD
-MwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
+eyJoaXN0b3J5IjpbMTc3NDU5NzE5NSwtMjAyNTcxMDUyNCwtMT
+AzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4
+MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMz
+AsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
 -->
