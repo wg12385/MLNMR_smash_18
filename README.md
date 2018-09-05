@@ -3,9 +3,9 @@
 ## Contents
  1. [Current state of the project](#current-state-of-the-project)
  2. [Aims of the project](#aims-of-the-project) 
- 4. [The representations](#the-representations)
-	 a. [Coulomb Matrix](#coulomb-matrix)
-	 b. [FCHL](#fchl)
+ 3. [The representations](#the-representations)
+ .. . [Coulomb Matrix](#coulomb-matrix)
+b. [FCHL](#fchl)
 	 c. [SLATM](#slatm) 
 	 d. [JACSF](#jacsf)
  5. [Kernel Ridge Regression](#kernel-ridge-regression)
@@ -83,8 +83,8 @@ The representations are generated for each individual atom of interest. The gene
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2ODE3NTQsLTIwMjU3MTA1MjQsLTEwMz
-czMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQxODAy
-NDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC
-0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
+eyJoaXN0b3J5IjpbNDY1NTc5Mzc4LDU4NjgxNzU0LC0yMDI1Nz
+EwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4MzMsLTE4MTYzMTA4
+OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLTE0MDYzMzcxMjksLT
+QzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4NjkwMjE0M119
 -->
