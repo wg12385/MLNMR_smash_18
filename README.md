@@ -1,7 +1,6 @@
 # Extra Info and Data SMASH 2018
 
 ## Contents
-
  1. Current state of the project
  2. Aims of the project
  3. The representations
@@ -15,6 +14,6 @@
 	 b. Dataset 2 (
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODc2NDg4LC00MzkyNzAwMzAsLTE3MD
-c5MDgyNTUsLTEwODY5MDIxNDNdfQ==
+eyJoaXN0b3J5IjpbMjA3ODU5ODY0NiwtNDM5MjcwMDMwLC0xNz
+A3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
 -->
