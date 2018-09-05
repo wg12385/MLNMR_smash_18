@@ -11,9 +11,13 @@
  5. Kernel Ridge Regression
  6. The Datasets
 	 a. Dataset 1 (pre-initial test set)
-	 b. Dataset 2 (
+	 b. Dataset 2 (First test set)
+	 c. Dataset 3 (recreated based on ShML)
+	 d. Dataset 4 (better FPS selection, being created)
+	 e. Future Datasets
+ 8. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODU5ODY0NiwtNDM5MjcwMDMwLC0xNz
-A3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
+eyJoaXN0b3J5IjpbLTE0MDYzMzcxMjksLTQzOTI3MDAzMCwtMT
+cwNzkwODI1NSwtMTA4NjkwMjE0M119
 -->
