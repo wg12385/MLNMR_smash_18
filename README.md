@@ -50,7 +50,9 @@ There are hundreds of formats which satisfy these criteria, the issue then becom
 Several different representations have been tested so far in the project, each with different benefits and drawbacks.
 
 ### Coulomb Matrix
-The coulomb 
+The coulomb matrix is by far the most simple of the representations tested in the project. It is based on just two terms, the distance between pairs of atoms and the product of their atomic numbers. The matrix is comprised atom-by-atom via the following formula for diagonal and off-diagonal elements. 
+
+
 
 ### FCHL
 
@@ -72,8 +74,8 @@ The coulomb
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDI0MzcwNywtMjAyNTcxMDUyNCwtMT
-AzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4
-MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMz
-AsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
+eyJoaXN0b3J5IjpbLTExMjkxNjI5MzEsLTIwMjU3MTA1MjQsLT
+EwMzczMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQx
+ODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMD
+MwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
 -->
