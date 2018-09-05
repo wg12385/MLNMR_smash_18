@@ -118,7 +118,9 @@ Dataset 2 was created by the following process:
    * Atoms with 3D coordinates
    * R factor $\leq$ 0.05
    * No unresolved errors
-2. From this initial set, 
+2. From this initial set, 1,000 structures were randomly selected
+3. All 1,000 structures were geometry optimised, although not all successfully. Due to errors in the structures many failed the DFT optimisation.
+4. The 874 structures which successfully optimised were then put into DFT NMR calculations to give the NMR parameters
 
 ### Dataset 3
 
@@ -126,7 +128,7 @@ Dataset 2 was created by the following process:
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjY1MzY4MCwtMjA3OTgzOTgwMiwxND
+eyJoaXN0b3J5IjpbMTQzNjQ4ODQzMywtMjA3OTgzOTgwMiwxND
 czMzEwMjUsODk4MzMxNjk4LDE4MzE4NDQwMjgsLTYxNDk2Njkz
 MSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1ODY4MTc1NCwtMjAyNT
 cxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEw
