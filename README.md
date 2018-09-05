@@ -118,7 +118,7 @@ Dataset 2 was created by the following process:
    * Atoms with 3D coordinates
    * R factor $\leq$ 0.05
    * No unresolved errors
-2. 
+2. From this initial set, 
 
 ### Dataset 3
 
@@ -126,10 +126,11 @@ Dataset 2 was created by the following process:
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk4Mzk4MDIsMTQ3MzMxMDI1LDg5OD
-MzMTY5OCwxODMxODQ0MDI4LC02MTQ5NjY5MzEsMTU5ODc0Mjk3
-NCw5NzY0MzI3NjMsNTg2ODE3NTQsLTIwMjU3MTA1MjQsLTEwMz
-czMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQxODAy
-NDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC
-0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
+eyJoaXN0b3J5IjpbMjExNjY1MzY4MCwtMjA3OTgzOTgwMiwxND
+czMzEwMjUsODk4MzMxNjk4LDE4MzE4NDQwMjgsLTYxNDk2Njkz
+MSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1ODY4MTc1NCwtMjAyNT
+cxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEw
+ODksLTQ1NDE4MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC
+00MzkyNzAwMzAsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
+
 -->
