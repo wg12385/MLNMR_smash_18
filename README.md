@@ -109,7 +109,12 @@ Dataset 1 was inherited from previous work in the butts research group, it conta
 Dataset 2 was created by the following process:
 
  1. An initial set of 100,000 structures was identified from the Cambridge structural database via an initial query:
-   * 
+   * Organic molecules only
+   * Non-polymeric
+   * No Ions
+   * Non disorderd
+   * Single crystal structures only
+   * Contain the fragment H-C-X where X: C 
 
 ### Dataset 3
 
@@ -117,10 +122,10 @@ Dataset 2 was created by the following process:
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2MTIyMzUsMTQ3MzMxMDI1LDg5ODMzMT
-Y5OCwxODMxODQ0MDI4LC02MTQ5NjY5MzEsMTU5ODc0Mjk3NCw5
-NzY0MzI3NjMsNTg2ODE3NTQsLTIwMjU3MTA1MjQsLTEwMzczMj
-M1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQxODAyNDMs
-LTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC0xNz
-A3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
+eyJoaXN0b3J5IjpbLTk1NTEwNDMwLDE0NzMzMTAyNSw4OTgzMz
+E2OTgsMTgzMTg0NDAyOCwtNjE0OTY2OTMxLDE1OTg3NDI5NzQs
+OTc2NDMyNzYzLDU4NjgxNzU0LC0yMDI1NzEwNTI0LC0xMDM3Mz
+IzNTc4LC04MTgzMzI4MzMsLTE4MTYzMTA4OSwtNDU0MTgwMjQz
+LC04MzE2OTcxOTEsLTE0MDYzMzcxMjksLTQzOTI3MDAzMCwtMT
+cwNzkwODI1NSwtMTA4NjkwMjE0M119
 -->
