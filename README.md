@@ -124,16 +124,19 @@ Dataset 2 was created by the following process:
 5. The optimised geometries and the NMR parameters were combined to produce the molecular representations used in the training of the machine learning algorithms.
 
 ### Dataset 3
-Dataset 3 is based on the work from [this paper](https://arxiv.org/pdf/1805.11541.pdf), which uses kernel ridge regression to predict NMR chemical shifts in solids 
+Dataset 3 is based on the work from [this paper](https://arxiv.org/pdf/1805.11541.pdf), which uses kernel ridge regression to predict NMR chemical shifts in solids from DFT data. 
+1. The list of 2500 structures was taken from the paper and the molecules retrieved from the CSD
+2. The structures were then geometry optimised, 
 
 ### Dataset 4
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5Njc5MDQ2LC0yMDc5ODM5ODAyLDE0Nz
-MzMTAyNSw4OTgzMzE2OTgsMTgzMTg0NDAyOCwtNjE0OTY2OTMx
-LDE1OTg3NDI5NzQsOTc2NDMyNzYzLDU4NjgxNzU0LC0yMDI1Nz
-EwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4MzMsLTE4MTYzMTA4
-OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLTE0MDYzMzcxMjksLT
-QzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4NjkwMjE0M119
+eyJoaXN0b3J5IjpbLTEwNjE4NDA0ODQsLTIwNzk4Mzk4MDIsMT
+Q3MzMxMDI1LDg5ODMzMTY5OCwxODMxODQ0MDI4LC02MTQ5NjY5
+MzEsMTU5ODc0Mjk3NCw5NzY0MzI3NjMsNTg2ODE3NTQsLTIwMj
+U3MTA1MjQsLTEwMzczMjM1NzgsLTgxODMzMjgzMywtMTgxNjMx
+MDg5LC00NTQxODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOS
+wtNDM5MjcwMDMwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
+
 -->
