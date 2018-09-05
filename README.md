@@ -130,16 +130,17 @@ Dataset 3 is based on the work from [this paper](https://arxiv.org/pdf/1805.1154
 3. The optimised geometries were used for the DFT NMR calculations
 4. The optimised geometries and the NMR parameters were combined to produce the molecular representations used in the training of the machine learning algorithms.
 
-The shiftML dataset was used because the published results were good and so present a good opportunity for comparison with our own work. 
+The shiftML dataset was used because the published results were good and so present a good opportunity for comparison with our own work. It also presents a significant improvement on dataset 2 in terms of the way the structures were selected. 500 of the structures were randomly selected: this forms the test set. The remaining 2000 were selected via furthest point sampling, which is 
 
 ### Dataset 4
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzNjU3NTIxLC0yMDc5ODM5ODAyLDE0Nz
-MzMTAyNSw4OTgzMzE2OTgsMTgzMTg0NDAyOCwtNjE0OTY2OTMx
-LDE1OTg3NDI5NzQsOTc2NDMyNzYzLDU4NjgxNzU0LC0yMDI1Nz
-EwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4MzMsLTE4MTYzMTA4
-OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLTE0MDYzMzcxMjksLT
-QzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4NjkwMjE0M119
+eyJoaXN0b3J5IjpbLTQ4MDQzNzUyMSwtMjA3OTgzOTgwMiwxND
+czMzEwMjUsODk4MzMxNjk4LDE4MzE4NDQwMjgsLTYxNDk2Njkz
+MSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1ODY4MTc1NCwtMjAyNT
+cxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEw
+ODksLTQ1NDE4MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC
+00MzkyNzAwMzAsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
+
 -->
