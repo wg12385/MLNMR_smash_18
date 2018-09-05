@@ -11,10 +11,10 @@
  4. List item
  5. Kernel Ridge Regression
  6. The Datasets
-	 a. Dataset 1 (test 
-	 b. Dataset 2 
+	 a. Dataset 1 (initial test set)
+	 b. Dataset 2 (
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ
-==
+eyJoaXN0b3J5IjpbLTQzOTI3MDAzMCwtMTcwNzkwODI1NSwtMT
+A4NjkwMjE0M119
 -->
