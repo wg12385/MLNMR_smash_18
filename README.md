@@ -20,13 +20,10 @@
 ## Current state of the project
 The following table gives the best prediction accuracy for each of the main NMR parameters being investigated.
 
-|Parameter|MAE|Standard Deviation| 
-|--|--|
-|  |  |
-
-|  | d |
-|--|--|
-|  |  |
+| NMR Parameter | Mean Absolute Error | Standard Deviation |
+|--|--|--|
+| 1H Chemical Shift | 0.22 | 0.66 |
+| 13C Chemical Shift | 0.22 | 0.66 |
 
 
 The corresponding methods are provided in the table below:
@@ -69,8 +66,8 @@ Several different representations have been tested so far in the project, each w
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTQyMzY4OCwtMjAyNTcxMDUyNCwtMT
-AzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4
-MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMz
-AsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
+eyJoaXN0b3J5IjpbLTEyNTk3ODAwMTgsLTIwMjU3MTA1MjQsLT
+EwMzczMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQx
+ODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMD
+MwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
 -->
