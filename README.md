@@ -130,13 +130,18 @@ Dataset 3 is based on the work from [this paper](https://arxiv.org/pdf/1805.1154
 3. The optimised geometries were used for the DFT NMR calculations
 4. The optimised geometries and the NMR parameters were combined to produce the molecular representations used in the training of the machine learning algorithms.
 
-The shiftML dataset was used because the published results were good and so present a good opportunity for comparison with our own work. It also presents a significant improvement on dataset 2 in terms of the way the structures were selected. 500 of the structures were randomly selected: this forms the test set. The remaining 2000 were selected via furthest point sampling, which is a method of identifying the least similar molecules in the dataset. This should provide a significant improvement on random selection as it should give a better coverage of the 
+The shiftML dataset was used because the published results were good and so present a good opportunity for comparison with our own work. It also presents a significant improvement on dataset 2 in terms of the way the structures were selected. 500 of the structures were randomly selected: this forms the test set. The remaining 2000 were selected via furthest point sampling, which is a method of identifying the least similar molecules in the dataset. This should provide a significant improvement on random selection as it should give a better coverage of the chemical space.
+
+The dataset comprises of only HCNO atoms, and is the current working dataset for the project, all data and graphs shown here are for this datas
+
+DATASET STATISTICS ??
 
 ### Dataset 4
+This dataset is currently being produced. We have identified a potentially better method of FPS sampling and want to 
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDI1MTI3NCwtMjA3OTgzOTgwMiwxND
+eyJoaXN0b3J5IjpbLTkwMTgzMzk3MywtMjA3OTgzOTgwMiwxND
 czMzEwMjUsODk4MzMxNjk4LDE4MzE4NDQwMjgsLTYxNDk2Njkz
 MSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1ODY4MTc1NCwtMjAyNT
 cxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEw
