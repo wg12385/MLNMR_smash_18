@@ -73,7 +73,7 @@ The FCHL representation comes from [this paper](https://aip.scitation.org/doi/10
 | $^3J_{HH}$ Coupling | 0.22 | 0.66 |
 
 ### SLATM
-
+The Spectrum of London and Axillrod-Teller-Muto potential (SLATM)
 
 ### JACSF
 
@@ -91,7 +91,7 @@ The FCHL representation comes from [this paper](https://aip.scitation.org/doi/10
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjMwNTczMiwxODMxODQ0MDI4LC02MT
+eyJoaXN0b3J5IjpbLTE0MjE4MjEzMiwxODMxODQ0MDI4LC02MT
 Q5NjY5MzEsMTU5ODc0Mjk3NCw5NzY0MzI3NjMsNTg2ODE3NTQs
 LTIwMjU3MTA1MjQsLTEwMzczMjM1NzgsLTgxODMzMjgzMywtMT
 gxNjMxMDg5LC00NTQxODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMz
