@@ -22,8 +22,9 @@ The following table gives the best prediction accuracy for each of the main NMR 
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |--|--|--|
-| 1H Chemical Shift | 0.22 | 0.66 |
+| $^1H$ $/delt$ | 0.22 | 0.66 |
 | 13C Chemical Shift | 0.22 | 0.66 |
+| $1J_{HC}$ Coupling
 
 
 The corresponding methods are provided in the table below:
@@ -66,7 +67,7 @@ Several different representations have been tested so far in the project, each w
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTk3ODAwMTgsLTIwMjU3MTA1MjQsLT
+eyJoaXN0b3J5IjpbLTEwMzIwMjU3ODAsLTIwMjU3MTA1MjQsLT
 EwMzczMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQx
 ODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMD
 MwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
