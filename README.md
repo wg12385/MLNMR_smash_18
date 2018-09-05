@@ -54,7 +54,7 @@ The coulomb matrix is by far the most simple of the representations tested in th
 
 EQUATION
 
-The 
+The representations are generated for each individual atom of interest. The generated coulomb matrix is then centered on that atom, 
 
 ### FCHL
 
@@ -76,8 +76,8 @@ The
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc4MDM4OTAsLTIwMjU3MTA1MjQsLT
-EwMzczMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQx
-ODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMD
-MwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
+eyJoaXN0b3J5IjpbMTM3MTEzOTgsLTIwMjU3MTA1MjQsLTEwMz
+czMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQxODAy
+NDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC
+0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
 -->
