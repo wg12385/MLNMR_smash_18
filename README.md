@@ -24,8 +24,10 @@ The following table gives the best prediction accuracy for each of the main NMR 
 |--|--|--|
 | $^1H$ $\delta$ | 0.22 | 0.66 |
 | $^{13}C$ $\delta$ | 0.22 | 0.66 |
-| $1J_{HC}$ Coupling | 0.22 | 0.66 |
-| $1J_{HC}$ Coupling
+| $^1J_{HC}$ Coupling | 0.22 | 0.66 |
+| $^3J_{HH}$ Coupling | 0.22 | 0.66 |
+|--|--|--|
+
 
 
 The corresponding methods are provided in the table below:
@@ -68,7 +70,7 @@ Several different representations have been tested so far in the project, each w
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNjI0NDQwLC0yMDI1NzEwNTI0LC0xMD
+eyJoaXN0b3J5IjpbMzM5NDE3MDM3LC0yMDI1NzEwNTI0LC0xMD
 M3MzIzNTc4LC04MTgzMzI4MzMsLTE4MTYzMTA4OSwtNDU0MTgw
 MjQzLC04MzE2OTcxOTEsLTE0MDYzMzcxMjksLTQzOTI3MDAzMC
 wtMTcwNzkwODI1NSwtMTA4NjkwMjE0M119
