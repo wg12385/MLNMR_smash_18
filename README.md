@@ -83,9 +83,17 @@ The Spectrum of London and Axillrod-Teller-Muto potential (SLATM) is another thr
 | $^3J_{HH}$ Coupling | 0.22 | 0.66 |
 
 ### JACSF
-The JACSF molecular representation is based on atom-centred symmetry functions, adapted specifically for j coupling. The representation is currently being developed, however it is much more suited to application with neural networks, so hasn't been tested much yet. The neural network algorithms are being developed
+The JACSF molecular representation is based on atom-centred symmetry functions, adapted specifically for j coupling. The representation is currently being developed, however it is much more suited to application with neural networks, so hasn't been tested much yet. The neural network algorithms are being developed currently.
+
+| NMR Parameter | Mean Absolute Error | Standard Deviation |
+|:----:|:----:|:----:|
+| $^1H$ $\delta$ | N/A | N/A |
+| $^{13}C$ $\delta$ | N/A | N/A |
+| $^1J_{HC}$ Coupling | Coming soon | Coming soon |
+| $^3J_{HH}$ Coupling | 3.33 | 3.33 |
 
 ## Kernel Ridge Regression
+
 
 ## The Datasets
 
@@ -99,10 +107,10 @@ The JACSF molecular representation is based on atom-centred symmetry functions, 
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTU4MzE5Niw4OTgzMzE2OTgsMTgzMT
-g0NDAyOCwtNjE0OTY2OTMxLDE1OTg3NDI5NzQsOTc2NDMyNzYz
-LDU4NjgxNzU0LC0yMDI1NzEwNTI0LC0xMDM3MzIzNTc4LC04MT
-gzMzI4MzMsLTE4MTYzMTA4OSwtNDU0MTgwMjQzLC04MzE2OTcx
-OTEsLTE0MDYzMzcxMjksLTQzOTI3MDAzMCwtMTcwNzkwODI1NS
-wtMTA4NjkwMjE0M119
+eyJoaXN0b3J5IjpbMTQ3MzMxMDI1LDg5ODMzMTY5OCwxODMxOD
+Q0MDI4LC02MTQ5NjY5MzEsMTU5ODc0Mjk3NCw5NzY0MzI3NjMs
+NTg2ODE3NTQsLTIwMjU3MTA1MjQsLTEwMzczMjM1NzgsLTgxOD
+MzMjgzMywtMTgxNjMxMDg5LC00NTQxODAyNDMsLTgzMTY5NzE5
+MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC0xNzA3OTA4MjU1LC
+0xMDg2OTAyMTQzXX0=
 -->
