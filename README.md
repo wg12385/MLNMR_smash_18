@@ -63,7 +63,7 @@ The representations are generated for each individual atom of interest. The gene
 | $^3J_{HH}$ Coupling | 0.22 | 0.66 |
 
 ### FCHL
-The FCHL representation comes from 
+The FCHL representation comes from [this paper](https://aip.scitation.org/doi/10.1063/1.5020710), the name is derived from the initials of the authors. 
 
 ### SLATM
 
@@ -83,10 +83,10 @@ The FCHL representation comes from
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5OTQ5MzY0LDE4MzE4NDQwMjgsLTYxND
-k2NjkzMSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1ODY4MTc1NCwt
-MjAyNTcxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMyODMzLC0xOD
-E2MzEwODksLTQ1NDE4MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3
-MTI5LC00MzkyNzAwMzAsLTE3MDc5MDgyNTUsLTEwODY5MDIxND
-NdfQ==
+eyJoaXN0b3J5IjpbMjY4NTAwMDUsMTgzMTg0NDAyOCwtNjE0OT
+Y2OTMxLDE1OTg3NDI5NzQsOTc2NDMyNzYzLDU4NjgxNzU0LC0y
+MDI1NzEwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4MzMsLTE4MT
+YzMTA4OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLTE0MDYzMzcx
+MjksLTQzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4NjkwMjE0M1
+19
 -->
