@@ -30,7 +30,9 @@ TABLE OF BEST PREDICTION METHODS
 Ultimately the goal of the project is to predict experimental scalar coupling constants and chemical shift for small molecules to a comparative accuracy to modern DFT methods. . . .
 
 ## The Representations
-Several different reps
+The data used for the development
+
+Several different representations have been tested so far in the project. The 
 
 
 ### Coulomb Matrix
@@ -55,7 +57,7 @@ Several different reps
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4OTgyOTEzLC0xMDM3MzIzNTc4LC04MT
+eyJoaXN0b3J5IjpbNTE1MTgxNzA0LC0xMDM3MzIzNTc4LC04MT
 gzMzI4MzMsLTE4MTYzMTA4OSwtNDU0MTgwMjQzLC04MzE2OTcx
 OTEsLTE0MDYzMzcxMjksLTQzOTI3MDAzMCwtMTcwNzkwODI1NS
 wtMTA4NjkwMjE0M119
