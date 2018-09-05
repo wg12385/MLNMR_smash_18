@@ -1,10 +1,4 @@
-# MLNMR_smash_18
-
-Extra data
-
-Extra graphs
-
-etc . . .Extra Info and Data SMASH 2018
+# Extra Info and Data SMASH 2018
 
 ## Contents
 
@@ -17,9 +11,10 @@ etc . . .Extra Info and Data SMASH 2018
  4. List item
  5. Kernel Ridge Regression
  6. The Datasets
-	 a. Dataset 1 (
+	 a. Dataset 1 (test 
 	 b. Dataset 2 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODY5MDIxNDNdfQ==
+eyJoaXN0b3J5IjpbLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ
+==
 -->
