@@ -63,9 +63,17 @@ The representations are generated for each individual atom of interest. The gene
 | $^3J_{HH}$ Coupling | 0.22 | 0.66 |
 
 ### FCHL
-The FCHL representation comes from [this paper](https://aip.scitation.org/doi/10.1063/1.5020710), the name is derived from the initials of the authors. 
+The FCHL representation comes from [this paper](https://aip.scitation.org/doi/10.1063/1.5020710), the name is derived from the initials of the authors. FCHL is a three body representation which means that each term is derived from the interaction between three atoms in the molecule. 
+
+| NMR Parameter | Mean Absolute Error | Standard Deviation |
+|:----:|:----:|:----:|
+| $^1H$ $\delta$ | 0.22 | 0.66 |
+| $^{13}C$ $\delta$ | 0.22 | 0.66 |
+| $^1J_{HC}$ Coupling | 0.22 | 0.66 |
+| $^3J_{HH}$ Coupling | 0.22 | 0.66 |
 
 ### SLATM
+
 
 ### JACSF
 
@@ -83,10 +91,10 @@ The FCHL representation comes from [this paper](https://aip.scitation.org/doi/10
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4NTAwMDUsMTgzMTg0NDAyOCwtNjE0OT
-Y2OTMxLDE1OTg3NDI5NzQsOTc2NDMyNzYzLDU4NjgxNzU0LC0y
-MDI1NzEwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4MzMsLTE4MT
-YzMTA4OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLTE0MDYzMzcx
-MjksLTQzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4NjkwMjE0M1
-19
+eyJoaXN0b3J5IjpbMTU1MjMwNTczMiwxODMxODQ0MDI4LC02MT
+Q5NjY5MzEsMTU5ODc0Mjk3NCw5NzY0MzI3NjMsNTg2ODE3NTQs
+LTIwMjU3MTA1MjQsLTEwMzczMjM1NzgsLTgxODMzMjgzMywtMT
+gxNjMxMDg5LC00NTQxODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMz
+NzEyOSwtNDM5MjcwMDMwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMT
+QzXX0=
 -->
