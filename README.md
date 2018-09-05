@@ -52,7 +52,7 @@ Several different representations have been tested so far in the project, each w
 ### Coulomb Matrix
 The coulomb matrix is by far the most simple of the representations tested in the project. It is based on just two terms, the distance between pairs of atoms and the product of their atomic numbers. The matrix is comprised atom-by-atom via the following formula for diagonal and off-diagonal elements. 
 
-EQUATION
+![](https://will-gerrard.imgbb.com)
 
 The representations are generated for each individual atom of interest. The generated coulomb matrix is then centered on that atom, with terms for atoms extending out to the selected cutoff range.
 
@@ -83,8 +83,9 @@ The representations are generated for each individual atom of interest. The gene
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2NDMyNzYzLDU4NjgxNzU0LC0yMDI1Nz
-EwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4MzMsLTE4MTYzMTA4
-OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLTE0MDYzMzcxMjksLT
-QzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4NjkwMjE0M119
+eyJoaXN0b3J5IjpbMTU5ODc0Mjk3NCw5NzY0MzI3NjMsNTg2OD
+E3NTQsLTIwMjU3MTA1MjQsLTEwMzczMjM1NzgsLTgxODMzMjgz
+MywtMTgxNjMxMDg5LC00NTQxODAyNDMsLTgzMTY5NzE5MSwtMT
+QwNjMzNzEyOSwtNDM5MjcwMDMwLC0xNzA3OTA4MjU1LC0xMDg2
+OTAyMTQzXX0=
 -->
