@@ -54,7 +54,7 @@ The coulomb matrix is by far the most simple of the representations tested in th
 
 EQUATION
 
-The representations are generated for each individual atom of interest. The generated coulomb matrix is then centered on that atom, 
+The representations are generated for each individual atom of interest. The generated coulomb matrix is then centered on that atom, with terms for atoms extending out to the selected cutoff range.
 
 ### FCHL
 
@@ -76,8 +76,8 @@ The representations are generated for each individual atom of interest. The gene
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTEzOTgsLTIwMjU3MTA1MjQsLTEwMz
-czMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQxODAy
-NDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC
-0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
+eyJoaXN0b3J5IjpbMTg2NjE4ODUxNywtMjAyNTcxMDUyNCwtMT
+AzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4
+MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMz
+AsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
 -->
