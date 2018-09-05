@@ -132,16 +132,16 @@ Dataset 3 is based on the work from [this paper](https://arxiv.org/pdf/1805.1154
 
 The shiftML dataset was used because the published results were good and so present a good opportunity for comparison with our own work. It also presents a significant improvement on dataset 2 in terms of the way the structures were selected. 500 of the structures were randomly selected: this forms the test set. The remaining 2000 were selected via furthest point sampling, which is a method of identifying the least similar molecules in the dataset. This should provide a significant improvement on random selection as it should give a better coverage of the chemical space.
 
-The dataset comprises of only HCNO atoms, and is the current working dataset for the project, all data and graphs shown here are for this datas
+The dataset comprises of only HCNO atoms, and is the current working dataset for the project, all data and graphs in this document are for this dataset
 
 DATASET STATISTICS ??
 
 ### Dataset 4
-This dataset is currently being produced. We have identified a potentially better method of FPS sampling and want to 
+This dataset is currently being produced. We have identified a potentially better method of FPS sampling and we also want to include fluorine atoms in the dataset to expand the applicability.
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTgzMzk3MywtMjA3OTgzOTgwMiwxND
+eyJoaXN0b3J5IjpbMTkzMTEwMjMyOSwtMjA3OTgzOTgwMiwxND
 czMzEwMjUsODk4MzMxNjk4LDE4MzE4NDQwMjgsLTYxNDk2Njkz
 MSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1ODY4MTc1NCwtMjAyNT
 cxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEw
