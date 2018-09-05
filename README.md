@@ -22,9 +22,12 @@ The following table gives the best prediction accuracy for each of the main NMR 
 
 TABLE OF BEST PREDICTION ACCURACIES
 
-the c
+The corresponding methods are provided in the table below:
+
+TABLE OF BEST PREDICTION METHODS
 
 ## Aims of the project
+
 
 ## The Representations
 
@@ -50,7 +53,7 @@ the c
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Mzk1ODAwNywtMTgxNjMxMDg5LC00NT
+eyJoaXN0b3J5IjpbLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NT
 QxODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5Mjcw
 MDMwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
 -->
