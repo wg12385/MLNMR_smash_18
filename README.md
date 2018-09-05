@@ -35,7 +35,7 @@ The data used for the training of the machine learning algorithms is derived fro
  - Unique structures must be represented by unique data structures
  - Identical structures must be represented by identical data structures
  
-There are hundreds of formats which satisfy these criteria, the issue then becomes which will 
+There are hundreds of formats which satisfy these criteria, the issue then becomes which will best encode the chemical information necessary to predict the parameters being trained.
 
 Several different representations have been tested so far in the project. The 
 
@@ -62,8 +62,8 @@ Several different representations have been tested so far in the project. The
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM5NTM5NjAsLTIwMjU3MTA1MjQsLT
-EwMzczMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQx
-ODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMD
-MwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
+eyJoaXN0b3J5IjpbMTIyNjc3NTYxNSwtMjAyNTcxMDUyNCwtMT
+AzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4
+MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMz
+AsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
 -->
