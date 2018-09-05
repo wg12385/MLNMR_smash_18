@@ -30,7 +30,9 @@ TABLE OF BEST PREDICTION METHODS
 Ultimately the goal of the project is to predict experimental scalar coupling constants and chemical shift for small molecules to a comparative accuracy to modern DFT methods. . . .
 
 ## The Representations
-The data used for the training of the machine learning algorithms is derived from DFT calculated NMR parameters and DFT optimised xyz coordinates. 
+The data used for the training of the machine learning algorithms is derived from DFT calculated NMR parameters and DFT optimised xyz coordinates. The input data to the Kernel Ridge Regression algorithm needs to satisfy two main criteria for efficient and successful training. 
+
+ - List item
 
 Several different representations have been tested so far in the project. The 
 
@@ -57,7 +59,7 @@ Several different representations have been tested so far in the project. The
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODc1MzczOSwtMTAzNzMyMzU3OCwtOD
+eyJoaXN0b3J5IjpbMTMwODAzMjU4MCwtMTAzNzMyMzU3OCwtOD
 E4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4MDI0MywtODMxNjk3
 MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMzAsLTE3MDc5MDgyNT
 UsLTEwODY5MDIxNDNdfQ==
