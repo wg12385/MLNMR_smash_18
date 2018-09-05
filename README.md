@@ -83,7 +83,7 @@ The Spectrum of London and Axillrod-Teller-Muto potential (SLATM) is another thr
 | $^3J_{HH}$ Coupling | 0.22 | 0.66 |
 
 ### JACSF
-
+The JACSF molecular representation is based on atom-centred symmetry functions, adapted specifically for j coupling. The representation is currently being developed, 
 
 ## Kernel Ridge Regression
 
@@ -99,10 +99,10 @@ The Spectrum of London and Axillrod-Teller-Muto potential (SLATM) is another thr
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTc1MDA0OTcsMTgzMTg0NDAyOCwtNj
-E0OTY2OTMxLDE1OTg3NDI5NzQsOTc2NDMyNzYzLDU4NjgxNzU0
-LC0yMDI1NzEwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4MzMsLT
-E4MTYzMTA4OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLTE0MDYz
-MzcxMjksLTQzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4NjkwMj
-E0M119
+eyJoaXN0b3J5IjpbODk4MzMxNjk4LDE4MzE4NDQwMjgsLTYxND
+k2NjkzMSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1ODY4MTc1NCwt
+MjAyNTcxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMyODMzLC0xOD
+E2MzEwODksLTQ1NDE4MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3
+MTI5LC00MzkyNzAwMzAsLTE3MDc5MDgyNTUsLTEwODY5MDIxND
+NdfQ==
 -->
