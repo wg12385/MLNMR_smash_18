@@ -73,9 +73,17 @@ The FCHL representation comes from [this paper](https://aip.scitation.org/doi/10
 | $^3J_{HH}$ Coupling | 0.22 | 0.66 |
 
 ### SLATM
-The Spectrum of London and Axillrod-Teller-Muto potential (SLATM)
+The Spectrum of London and Axillrod-Teller-Muto potential (SLATM) is another three body representation. 
+
+| NMR Parameter | Mean Absolute Error | Standard Deviation |
+|:----:|:----:|:----:|
+| $^1H$ $\delta$ | 0.22 | 0.66 |
+| $^{13}C$ $\delta$ | 0.22 | 0.66 |
+| $^1J_{HC}$ Coupling | 0.22 | 0.66 |
+| $^3J_{HH}$ Coupling | 0.22 | 0.66 |
 
 ### JACSF
+
 
 ## Kernel Ridge Regression
 
@@ -91,10 +99,10 @@ The Spectrum of London and Axillrod-Teller-Muto potential (SLATM)
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjE4MjEzMiwxODMxODQ0MDI4LC02MT
-Q5NjY5MzEsMTU5ODc0Mjk3NCw5NzY0MzI3NjMsNTg2ODE3NTQs
-LTIwMjU3MTA1MjQsLTEwMzczMjM1NzgsLTgxODMzMjgzMywtMT
-gxNjMxMDg5LC00NTQxODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMz
-NzEyOSwtNDM5MjcwMDMwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMT
-QzXX0=
+eyJoaXN0b3J5IjpbLTExNTc1MDA0OTcsMTgzMTg0NDAyOCwtNj
+E0OTY2OTMxLDE1OTg3NDI5NzQsOTc2NDMyNzYzLDU4NjgxNzU0
+LC0yMDI1NzEwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4MzMsLT
+E4MTYzMTA4OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLTE0MDYz
+MzcxMjksLTQzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4NjkwMj
+E0M119
 -->
