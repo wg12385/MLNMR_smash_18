@@ -1,8 +1,8 @@
 # Extra Info and Data SMASH 2018
 
 ## Contents
- 1. Current state of the project (#current-state-of-the-project)
- 2. Aims of the project 
+ 1. [Current state of the project](#current-state-of-the-project)
+ 2. [Aims of the project](#aims-of-the-project) 
  3. The representations
 	 a. Coulomb Matrix
 	 b. FCHL
@@ -18,7 +18,15 @@
  8. 
 
 ## Current state of the project
+
+## Aims of the project
+
+## The Representations
+
+### Coulomb Matrix
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzUwNDUsLTE0MDYzMzcxMjksLTQzOT
-I3MDAzMCwtMTcwNzkwODI1NSwtMTA4NjkwMjE0M119
+eyJoaXN0b3J5IjpbMTAzODQ4Nzk3LC0xNDA2MzM3MTI5LC00Mz
+kyNzAwMzAsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
 -->
