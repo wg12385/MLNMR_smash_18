@@ -20,7 +20,11 @@
 ## Current state of the project
 The following table gives the best prediction accuracy for each of the main NMR parameters being investigated.
 
-| Parameter | MAE | | 
+|Parameter|MAE|Standard Deviation| 
+|--|--|
+|  |  |
+
+|  | d |
 |--|--|
 |  |  |
 
@@ -65,7 +69,7 @@ Several different representations have been tested so far in the project, each w
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTkwNjk2OCwtMjAyNTcxMDUyNCwtMT
+eyJoaXN0b3J5IjpbMTA0NTQyMzY4OCwtMjAyNTcxMDUyNCwtMT
 AzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4
 MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMz
 AsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
