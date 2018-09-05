@@ -30,7 +30,7 @@ TABLE OF BEST PREDICTION METHODS
 Ultimately the goal of the project is to predict experimental scalar coupling constants and chemical shift for small molecules to a comparative accuracy to modern DFT methods. . . .
 
 ## The Representations
-The data used for the development
+The data used for the training of the machine learning algorithms is derived from DFT calculated NMR parameters and DFT optimised xyz coordinates. 
 
 Several different representations have been tested so far in the project. The 
 
@@ -57,8 +57,8 @@ Several different representations have been tested so far in the project. The
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MTgxNzA0LC0xMDM3MzIzNTc4LC04MT
-gzMzI4MzMsLTE4MTYzMTA4OSwtNDU0MTgwMjQzLC04MzE2OTcx
-OTEsLTE0MDYzMzcxMjksLTQzOTI3MDAzMCwtMTcwNzkwODI1NS
-wtMTA4NjkwMjE0M119
+eyJoaXN0b3J5IjpbMTU3ODc1MzczOSwtMTAzNzMyMzU3OCwtOD
+E4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4MDI0MywtODMxNjk3
+MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMzAsLTE3MDc5MDgyNT
+UsLTEwODY5MDIxNDNdfQ==
 -->
