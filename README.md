@@ -103,9 +103,13 @@ LAPLACIAN KERNEL
 ## The Datasets
 
 ### Dataset 1
-Dataset 1 was inherited from previous work in the butts research group, it contains several hundred molecules with DFT calculated parameters, it was only used to test the 
+Dataset 1 was inherited from previous work in the butts research group, it contains several hundred molecules with DFT calculated parameters, it was only used to test the initial programs whilst the first proper dataset was being generated.
 
 ### Dataset 2
+Dataset 2 was created by the following process:
+
+ 1. An initial set of 100,000 structures was identified from the Cambridge structural database via an initial query:
+   * 
 
 ### Dataset 3
 
@@ -113,10 +117,10 @@ Dataset 1 was inherited from previous work in the butts research group, it conta
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTEzNTM5MCwxNDczMzEwMjUsODk4Mz
-MxNjk4LDE4MzE4NDQwMjgsLTYxNDk2NjkzMSwxNTk4NzQyOTc0
-LDk3NjQzMjc2Myw1ODY4MTc1NCwtMjAyNTcxMDUyNCwtMTAzNz
-MyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4MDI0
-MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMzAsLT
-E3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
+eyJoaXN0b3J5IjpbODE2MTIyMzUsMTQ3MzMxMDI1LDg5ODMzMT
+Y5OCwxODMxODQ0MDI4LC02MTQ5NjY5MzEsMTU5ODc0Mjk3NCw5
+NzY0MzI3NjMsNTg2ODE3NTQsLTIwMjU3MTA1MjQsLTEwMzczMj
+M1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQxODAyNDMs
+LTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC0xNz
+A3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
 -->
