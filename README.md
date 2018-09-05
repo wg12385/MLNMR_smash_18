@@ -56,6 +56,13 @@ EQUATION
 
 The representations are generated for each individual atom of interest. The generated coulomb matrix is then centered on that atom, with terms for atoms extending out to the selected cutoff range.
 
+| NMR Parameter | Mean Absolute Error | Standard Deviation |
+|:----:|:----:|:----:|
+| $^1H$ $\delta$ | 0.22 | 0.66 |
+| $^{13}C$ $\delta$ | 0.22 | 0.66 |
+| $^1J_{HC}$ Coupling | 0.22 | 0.66 |
+| $^3J_{HH}$ Coupling | 0.22 | 0.66 |
+
 ### FCHL
 
 ### SLATM
@@ -76,8 +83,8 @@ The representations are generated for each individual atom of interest. The gene
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjE4ODUxNywtMjAyNTcxMDUyNCwtMT
-AzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4
-MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMz
-AsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
+eyJoaXN0b3J5IjpbNTg2ODE3NTQsLTIwMjU3MTA1MjQsLTEwMz
+czMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQxODAy
+NDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC
+0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
 -->
