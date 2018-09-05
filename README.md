@@ -34,6 +34,8 @@ The data used for the training of the machine learning algorithms is derived fro
 
  - Unique structures must be represented by unique data structures
  - Identical structures must be represented by identical data structures
+ 
+There are hundreds of formats which satisfy these criteria, 
 
 Several different representations have been tested so far in the project. The 
 
@@ -60,8 +62,8 @@ Several different representations have been tested so far in the project. The
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjU3MTA1MjQsLTEwMzczMjM1NzgsLT
-gxODMzMjgzMywtMTgxNjMxMDg5LC00NTQxODAyNDMsLTgzMTY5
-NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC0xNzA3OTA4Mj
-U1LC0xMDg2OTAyMTQzXX0=
+eyJoaXN0b3J5IjpbMTczNTIwNDkzMCwtMjAyNTcxMDUyNCwtMT
+AzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4
+MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMz
+AsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
 -->
