@@ -8,8 +8,8 @@
 	 b. [FCHL](#fchl)
 	 c. [SLATM](#slatm) 
 	 d. [JACSF](#jacsf)
- 5. Kernel Ridge Regression
- 6. The Datasets
+ 5. [Kernel Ridge Regression](#kernel-ridge-regression)
+ 6. [The Datasets](
 	 a. Dataset 1 (pre-initial test set)
 	 b. Dataset 2 (First test set)
 	 c. Dataset 3 (recreated based on ShML)
@@ -28,7 +28,13 @@
 ### FCHL
 
 ### SLATM
+
+### JACSF
+
+## Kernel Ridge Regression
+
+## The Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4MDQ3NTA2LC0xNDA2MzM3MTI5LC00Mz
+eyJoaXN0b3J5IjpbODcyODEyNDQyLC0xNDA2MzM3MTI5LC00Mz
 kyNzAwMzAsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
 -->
