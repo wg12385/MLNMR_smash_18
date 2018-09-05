@@ -93,7 +93,7 @@ The JACSF molecular representation is based on atom-centred symmetry functions, 
 | $^3J_{HH}$ Coupling | 3.33 | 3.33 |
 
 ## Kernel Ridge Regression
-There are much better explanations of what kernel ridge regression (KRR) is and does, notably [here](https://www.ics.uci.edu/~welling/classnotes/papers_class/Kernel-Ridge.pdf)
+There are much better explanations of what kernel ridge regression (KRR) is and does, notably [here](https://www.ics.uci.edu/~welling/classnotes/papers_class/Kernel-Ridge.pdf) and [here](https://www.youtube.com/watch?v=XUj5JbQihlU&t=3s&frags=pl%2Cwn). The essent
 
 
 ## The Datasets
@@ -108,10 +108,10 @@ There are much better explanations of what kernel ridge regression (KRR) is and 
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjkyNTUwOCwxNDczMzEwMjUsODk4Mz
-MxNjk4LDE4MzE4NDQwMjgsLTYxNDk2NjkzMSwxNTk4NzQyOTc0
-LDk3NjQzMjc2Myw1ODY4MTc1NCwtMjAyNTcxMDUyNCwtMTAzNz
-MyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4MDI0
-MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMzAsLT
-E3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
+eyJoaXN0b3J5IjpbLTE4OTk3MzM2OTAsMTQ3MzMxMDI1LDg5OD
+MzMTY5OCwxODMxODQ0MDI4LC02MTQ5NjY5MzEsMTU5ODc0Mjk3
+NCw5NzY0MzI3NjMsNTg2ODE3NTQsLTIwMjU3MTA1MjQsLTEwMz
+czMjM1NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQxODAy
+NDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC
+0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
 -->
