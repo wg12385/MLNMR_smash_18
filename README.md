@@ -121,18 +121,19 @@ Dataset 2 was created by the following process:
 2. From this initial set, 1,000 structures were randomly selected
 3. All 1,000 structures were geometry optimised, although not all successfully. Due to errors in the structures many failed the DFT optimisation.
 4. The 874 structures which successfully optimised were then put into DFT NMR calculations to give the NMR parameters
+5. The optimised geometries and the NMR parameters were combined to produce the molecular representations used in the training of the machine learning algorithms.
 
 ### Dataset 3
+Dataset 3 
 
 ### Dataset 4
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjQ4ODQzMywtMjA3OTgzOTgwMiwxND
-czMzEwMjUsODk4MzMxNjk4LDE4MzE4NDQwMjgsLTYxNDk2Njkz
-MSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1ODY4MTc1NCwtMjAyNT
-cxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEw
-ODksLTQ1NDE4MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC
-00MzkyNzAwMzAsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
-
+eyJoaXN0b3J5IjpbNjkwMTA5MTg1LC0yMDc5ODM5ODAyLDE0Nz
+MzMTAyNSw4OTgzMzE2OTgsMTgzMTg0NDAyOCwtNjE0OTY2OTMx
+LDE1OTg3NDI5NzQsOTc2NDMyNzYzLDU4NjgxNzU0LC0yMDI1Nz
+EwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4MzMsLTE4MTYzMTA4
+OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLTE0MDYzMzcxMjksLT
+QzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4NjkwMjE0M119
 -->
