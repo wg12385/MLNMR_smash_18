@@ -18,7 +18,11 @@
  7. []
 
 ## Current state of the project
-The best numbers 
+The following table gives the best prediction accuracy for each of the main NMR parameters being investigated.
+
+TABLE OF BEST PREDICTION ACCURACIES
+
+the c
 
 ## Aims of the project
 
@@ -46,7 +50,7 @@ The best numbers
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzYxNzY4OCwtMTgxNjMxMDg5LC00NT
+eyJoaXN0b3J5IjpbLTU1Mzk1ODAwNywtMTgxNjMxMDg5LC00NT
 QxODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5Mjcw
 MDMwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
 -->
