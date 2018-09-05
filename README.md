@@ -27,7 +27,7 @@ The corresponding methods are provided in the table below:
 TABLE OF BEST PREDICTION METHODS
 
 ## Aims of the project
-
+Ultimately the goal of 
 
 ## The Representations
 
@@ -53,7 +53,8 @@ TABLE OF BEST PREDICTION METHODS
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NT
-QxODAyNDMsLTgzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5Mjcw
-MDMwLC0xNzA3OTA4MjU1LC0xMDg2OTAyMTQzXX0=
+eyJoaXN0b3J5IjpbMTkwMzc0NjY0OCwtODE4MzMyODMzLC0xOD
+E2MzEwODksLTQ1NDE4MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3
+MTI5LC00MzkyNzAwMzAsLTE3MDc5MDgyNTUsLTEwODY5MDIxND
+NdfQ==
 -->
