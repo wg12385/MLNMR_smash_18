@@ -31,10 +31,10 @@ The corresponding methods are provided in the table below:
 
 | NMR Parameter | Representation | Method | Dataset | 
 |:----:|:----:|:----:|:---:|
-| $^1H$ $\delta$ | SLATM | 0.66 |
-| $^{13}C$ $\delta$ | SLATM | 0.66 |
-| $^1J_{HC}$ Coupling | 0.22 | 0.66 |
-| $^3J_{HH}$ Coupling | 0.22 | 0.66 |
+| $^1H$ $\delta$ | SLATM | KRR | 3 |
+| $^{13}C$ $\delta$ | SLATM | KRR | 3 |
+| $^1J_{HC}$ Coupling | SLATM | KRR | 3 |
+| $^3J_{HH}$ Coupling | JACSF | KRR | 3 |
 
 ## Aims of the project
 Ultimately the goal of the project is to predict experimental scalar coupling constants and chemical shift for small molecules to a comparative accuracy to modern DFT methods. . . .
@@ -49,8 +49,8 @@ There are hundreds of formats which satisfy these criteria, the issue then becom
 
 Several different representations have been tested so far in the project, each with different benefits and drawbacks.
 
-
 ### Coulomb Matrix
+The coulomb 
 
 ### FCHL
 
@@ -72,7 +72,7 @@ Several different representations have been tested so far in the project, each w
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDU5NzE5NSwtMjAyNTcxMDUyNCwtMT
+eyJoaXN0b3J5IjpbMTc3NDI0MzcwNywtMjAyNTcxMDUyNCwtMT
 AzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4
 MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMz
 AsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
