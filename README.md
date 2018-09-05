@@ -114,7 +114,9 @@ Dataset 2 was created by the following process:
    * No Ions
    * Non disorderd
    * Single crystal structures only
-   * Contain the fragment H-C-X where X: C 
+   * Contain the fragment H-C-X where X: C, N, O
+   * Atoms with 3D coordinates
+   * R factor 
 
 ### Dataset 3
 
@@ -122,7 +124,7 @@ Dataset 2 was created by the following process:
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTEwNDMwLDE0NzMzMTAyNSw4OTgzMz
+eyJoaXN0b3J5IjpbNTg3MjkwMDkwLDE0NzMzMTAyNSw4OTgzMz
 E2OTgsMTgzMTg0NDAyOCwtNjE0OTY2OTMxLDE1OTg3NDI5NzQs
 OTc2NDMyNzYzLDU4NjgxNzU0LC0yMDI1NzEwNTI0LC0xMDM3Mz
 IzNTc4LC04MTgzMzI4MzMsLTE4MTYzMTA4OSwtNDU0MTgwMjQz
