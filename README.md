@@ -20,7 +20,10 @@
 ## Current state of the project
 The following table gives the best prediction accuracy for each of the main NMR parameters being investigated.
 
-TABLE OF BEST PREDICTION ACCURACIES
+| Parameter | MAE | | 
+|--|--|
+|  |  |
+
 
 The corresponding methods are provided in the table below:
 
@@ -37,7 +40,7 @@ The data used for the training of the machine learning algorithms is derived fro
  
 There are hundreds of formats which satisfy these criteria, the issue then becomes which will best encode the chemical information necessary to predict the parameters being trained.
 
-Several different representations have been tested so far in the project. The 
+Several different representations have been tested so far in the project, each with different benefits and drawbacks.
 
 
 ### Coulomb Matrix
@@ -62,7 +65,7 @@ Several different representations have been tested so far in the project. The
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjc3NTYxNSwtMjAyNTcxMDUyNCwtMT
+eyJoaXN0b3J5IjpbLTg3MTkwNjk2OCwtMjAyNTcxMDUyNCwtMT
 AzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4
 MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC00MzkyNzAwMz
 AsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
