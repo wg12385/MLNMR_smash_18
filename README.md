@@ -93,12 +93,17 @@ The JACSF molecular representation is based on atom-centred symmetry functions, 
 | $^3J_{HH}$ Coupling | 3.33 | 3.33 |
 
 ## Kernel Ridge Regression
-There are much better explanations of what kernel ridge regression (KRR) is and does, notably [here](https://www.ics.uci.edu/~welling/classnotes/papers_class/Kernel-Ridge.pdf) and [here](https://www.youtube.com/watch?v=XUj5JbQihlU&t=3s&frags=pl%2Cwn). Ridge regression alone is simply mathematical regression using the squared error as the loss function (also referred to as the L2-norm). The essential concept is the kernel trick employed to simplify the mathematics. The kernel trick involves taking the (mathematical) distance between each pair of representations in the dataset and then finding the coefficient matrix to produce the desired output vector from this similarity (or kernel) matrix. This coefficient matrix is found via regression, and determining it is often what is 
+There are much better explanations of what kernel ridge regression (KRR) is and does, notably [here](https://www.ics.uci.edu/~welling/classnotes/papers_class/Kernel-Ridge.pdf) and [here](https://www.youtube.com/watch?v=XUj5JbQihlU&t=3s&frags=pl%2Cwn). Ridge regression alone is simply mathematical regression using the squared error as the loss function (also referred to as the L2-norm). The essential concept is the kernel trick employed to simplify the mathematics. The kernel trick involves taking the (mathematical) distance between each pair of representations in the dataset and then finding the coefficient matrix to produce the desired output vector from this similarity (or kernel) matrix. This coefficient matrix is found via regression, and determining it is often what is referred to as training.
+
+For the applications in this project we have used the laplacian kernel function
+
+LAPLACIAN KERNEL
 
 
 ## The Datasets
 
 ### Dataset 1
+Dataset 1 was inherited from previous work in the butts research group, it contains several hundred molecules with DFT calculated parameters, it was only used to test the 
 
 ### Dataset 2
 
@@ -108,7 +113,7 @@ There are much better explanations of what kernel ridge regression (KRR) is and 
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Nzc3MTYwNywxNDczMzEwMjUsODk4Mz
+eyJoaXN0b3J5IjpbLTI5MTEzNTM5MCwxNDczMzEwMjUsODk4Mz
 MxNjk4LDE4MzE4NDQwMjgsLTYxNDk2NjkzMSwxNTk4NzQyOTc0
 LDk3NjQzMjc2Myw1ODY4MTc1NCwtMjAyNTcxMDUyNCwtMTAzNz
 MyMzU3OCwtODE4MzMyODMzLC0xODE2MzEwODksLTQ1NDE4MDI0
