@@ -16,8 +16,10 @@ etc . . .Extra Info and Data SMASH 2018
 	 c. SLATM 
  4. List item
  5. Kernel Ridge Regression
- 6. 
+ 6. The Datasets
+	 a. Dataset 1 (
+	 b. Dataset 2 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTgwNDI0MV19
+eyJoaXN0b3J5IjpbLTEwODY5MDIxNDNdfQ==
 -->
