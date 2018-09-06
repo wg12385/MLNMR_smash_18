@@ -23,7 +23,7 @@ The following table gives the best prediction accuracy for each of the main NMR 
 |:----:|:----:|:----:|
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.22 | 0.66 |
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 2.04 | 2.02 |
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
 
 The corresponding methods are provided in the table below:
@@ -141,11 +141,11 @@ This dataset is currently being produced. We have identified a potentially bette
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk2OTQzMDEsMTkzMTEwMjMyOSwtMj
-A3OTgzOTgwMiwxNDczMzEwMjUsODk4MzMxNjk4LDE4MzE4NDQw
-MjgsLTYxNDk2NjkzMSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1OD
-Y4MTc1NCwtMjAyNTcxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMy
-ODMzLC0xODE2MzEwODksLTQ1NDE4MDI0MywtODMxNjk3MTkxLC
-0xNDA2MzM3MTI5LC00MzkyNzAwMzAsLTE3MDc5MDgyNTUsLTEw
-ODY5MDIxNDNdfQ==
+eyJoaXN0b3J5IjpbLTM3MzgyMzgzNSwxOTMxMTAyMzI5LC0yMD
+c5ODM5ODAyLDE0NzMzMTAyNSw4OTgzMzE2OTgsMTgzMTg0NDAy
+OCwtNjE0OTY2OTMxLDE1OTg3NDI5NzQsOTc2NDMyNzYzLDU4Nj
+gxNzU0LC0yMDI1NzEwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4
+MzMsLTE4MTYzMTA4OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLT
+E0MDYzMzcxMjksLTQzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4
+NjkwMjE0M119
 -->
