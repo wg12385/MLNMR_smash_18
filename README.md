@@ -31,9 +31,9 @@ The corresponding methods are provided in the table below:
 | NMR Parameter | Representation | Method | Dataset | 
 |:----:|:----:|:----:|:---:|
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | SLATM | KRR | 3
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | SLATM | KRR | 3
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | SLATM | KRR | 3
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | SLATM | KRR | 3
 
 ## Aims of the project
 Ultimately the goal of the project is to predict experimental scalar coupling constants and chemical shift for small molecules to a comparative accuracy to modern DFT methods. . . .
@@ -57,40 +57,40 @@ The representations are generated for each individual atom of interest. The gene
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |:----:|:----:|:----:|
-| $^1H$ $\delta$ | 0.22 | 0.66 |
-| $^{13}C$ $\delta$ | 0.22 | 0.66 |
-| $^1J_{HC}$ Coupling | 0.22 | 0.66 |
-| $^3J_{HH}$ Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
 
 ### FCHL
 The FCHL representation comes from [this paper](https://aip.scitation.org/doi/10.1063/1.5020710), the name is derived from the initials of the authors. FCHL is a three body representation which means that each term is derived from the interaction between three atoms in the molecule. 
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |:----:|:----:|:----:|
-| $^1H$ $\delta$ | 0.22 | 0.66 |
-| $^{13}C$ $\delta$ | 0.22 | 0.66 |
-| $^1J_{HC}$ Coupling | 0.22 | 0.66 |
-| $^3J_{HH}$ Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
 
 ### SLATM
 The Spectrum of London and Axillrod-Teller-Muto potential (SLATM) is another three body representation. 
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |:----:|:----:|:----:|
-| $^1H$ $\delta$ | 0.22 | 0.66 |
-| $^{13}C$ $\delta$ | 0.22 | 0.66 |
-| $^1J_{HC}$ Coupling | 0.22 | 0.66 |
-| $^3J_{HH}$ Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
 
 ### JACSF
 The JACSF molecular representation is based on atom-centred symmetry functions, adapted specifically for j coupling. The representation is currently being developed, however it is much more suited to application with neural networks, so hasn't been tested much yet. The neural network algorithms are being developed currently.
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |:----:|:----:|:----:|
-| $^1H$ $\delta$ | N/A | N/A |
-| $^{13}C$ $\delta$ | N/A | N/A |
-| $^1J_{HC}$ Coupling | Coming soon | Coming soon |
-| $^3J_{HH}$ Coupling | 3.33 | 3.33 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
 
 ## Kernel Ridge Regression
 There are much better explanations of what kernel ridge regression (KRR) is and does, notably [here](https://www.ics.uci.edu/~welling/classnotes/papers_class/Kernel-Ridge.pdf) and [here](https://www.youtube.com/watch?v=XUj5JbQihlU&t=3s&frags=pl%2Cwn). Ridge regression alone is simply mathematical regression using the squared error as the loss function (also referred to as the L2-norm). The essential concept is the kernel trick employed to simplify the mathematics. The kernel trick involves taking the (mathematical) distance between each pair of representations in the dataset and then finding the coefficient matrix to produce the desired output vector from this similarity (or kernel) matrix. This coefficient matrix is found via regression, and determining it is often what is referred to as training.
@@ -141,11 +141,11 @@ This dataset is currently being produced. We have identified a potentially bette
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Njc2Mzg5OCwxOTMxMTAyMzI5LC0yMD
-c5ODM5ODAyLDE0NzMzMTAyNSw4OTgzMzE2OTgsMTgzMTg0NDAy
-OCwtNjE0OTY2OTMxLDE1OTg3NDI5NzQsOTc2NDMyNzYzLDU4Nj
-gxNzU0LC0yMDI1NzEwNTI0LC0xMDM3MzIzNTc4LC04MTgzMzI4
-MzMsLTE4MTYzMTA4OSwtNDU0MTgwMjQzLC04MzE2OTcxOTEsLT
-E0MDYzMzcxMjksLTQzOTI3MDAzMCwtMTcwNzkwODI1NSwtMTA4
-NjkwMjE0M119
+eyJoaXN0b3J5IjpbLTE5ODk2OTQzMDEsMTkzMTEwMjMyOSwtMj
+A3OTgzOTgwMiwxNDczMzEwMjUsODk4MzMxNjk4LDE4MzE4NDQw
+MjgsLTYxNDk2NjkzMSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1OD
+Y4MTc1NCwtMjAyNTcxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMy
+ODMzLC0xODE2MzEwODksLTQ1NDE4MDI0MywtODMxNjk3MTkxLC
+0xNDA2MzM3MTI5LC00MzkyNzAwMzAsLTE3MDc5MDgyNTUsLTEw
+ODY5MDIxNDNdfQ==
 -->
