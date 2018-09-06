@@ -21,8 +21,8 @@ The following table gives the best prediction accuracy for each of the main NMR 
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |:----:|:----:|:----:|
-| $^1H$ $\delta$ | 0.22 | 0.66 |
-| $^{13}C$ $\delta$ | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
 | $^1J_{HC}$ Coupling | 0.22 | 0.66 |
 | $^3J_{HH}$ Coupling | 0.22 | 0.66 |
 
@@ -141,11 +141,11 @@ This dataset is currently being produced. We have identified a potentially bette
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTEwMjMyOSwtMjA3OTgzOTgwMiwxND
-czMzEwMjUsODk4MzMxNjk4LDE4MzE4NDQwMjgsLTYxNDk2Njkz
-MSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1ODY4MTc1NCwtMjAyNT
-cxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMyODMzLC0xODE2MzEw
-ODksLTQ1NDE4MDI0MywtODMxNjk3MTkxLC0xNDA2MzM3MTI5LC
-00MzkyNzAwMzAsLTE3MDc5MDgyNTUsLTEwODY5MDIxNDNdfQ==
-
+eyJoaXN0b3J5IjpbLTE1NDg4MjA0NjksMTkzMTEwMjMyOSwtMj
+A3OTgzOTgwMiwxNDczMzEwMjUsODk4MzMxNjk4LDE4MzE4NDQw
+MjgsLTYxNDk2NjkzMSwxNTk4NzQyOTc0LDk3NjQzMjc2Myw1OD
+Y4MTc1NCwtMjAyNTcxMDUyNCwtMTAzNzMyMzU3OCwtODE4MzMy
+ODMzLC0xODE2MzEwODksLTQ1NDE4MDI0MywtODMxNjk3MTkxLC
+0xNDA2MzM3MTI5LC00MzkyNzAwMzAsLTE3MDc5MDgyNTUsLTEw
+ODY5MDIxNDNdfQ==
 -->
