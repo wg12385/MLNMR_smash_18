@@ -17,14 +17,14 @@
  e. [Future Datasets](#future-datasets)  
 
 ## Current state of the project
-The following table gives the best prediction accuracy for each of the main NMR parameters being investigated.
+The following table gives the best prediction accuracy for each of the main NMR parameters being investigated for the current dataset (3).
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |:----:|:----:|:----:|
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.25 | 0.23 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 3.22 | 3.03 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 3.22 | 4.10 |
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 2.04 | 2.02 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 3.3 | 4.4 |
 
 The corresponding methods are provided in the table below:
 
@@ -33,7 +33,7 @@ The corresponding methods are provided in the table below:
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | SLATM | KRR | 3
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | SLATM | KRR | 3
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | SLATM | KRR | 3
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | SLATM | KRR | 3
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | JACSF | KRR | 3
 
 ## Aims of the project
 Ultimately the goal of the project is to predict experimental scalar coupling constants and chemical shift for small molecules to a comparative accuracy to modern DFT methods. . . .
@@ -141,11 +141,11 @@ This dataset is currently being produced. We have identified a potentially bette
 
 ### Future Datasets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDIzNzE2MTAsLTYyMzkwNDE1MywxOT
-MxMTAyMzI5LC0yMDc5ODM5ODAyLDE0NzMzMTAyNSw4OTgzMzE2
-OTgsMTgzMTg0NDAyOCwtNjE0OTY2OTMxLDE1OTg3NDI5NzQsOT
-c2NDMyNzYzLDU4NjgxNzU0LC0yMDI1NzEwNTI0LC0xMDM3MzIz
-NTc4LC04MTgzMzI4MzMsLTE4MTYzMTA4OSwtNDU0MTgwMjQzLC
-04MzE2OTcxOTEsLTE0MDYzMzcxMjksLTQzOTI3MDAzMCwtMTcw
-NzkwODI1NV19
+eyJoaXN0b3J5IjpbLTcyOTcyNTczOCwtNjIzOTA0MTUzLDE5Mz
+ExMDIzMjksLTIwNzk4Mzk4MDIsMTQ3MzMxMDI1LDg5ODMzMTY5
+OCwxODMxODQ0MDI4LC02MTQ5NjY5MzEsMTU5ODc0Mjk3NCw5Nz
+Y0MzI3NjMsNTg2ODE3NTQsLTIwMjU3MTA1MjQsLTEwMzczMjM1
+NzgsLTgxODMzMjgzMywtMTgxNjMxMDg5LC00NTQxODAyNDMsLT
+gzMTY5NzE5MSwtMTQwNjMzNzEyOSwtNDM5MjcwMDMwLC0xNzA3
+OTA4MjU1XX0=
 -->
