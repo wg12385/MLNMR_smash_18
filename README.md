@@ -1,5 +1,8 @@
 # Extra Info and Data SMASH 2018
 
+# Will Gerrard
+# wg12385@bristol.ac.uk
+
 ## Contents
 1. [Current state of the project](#current-state-of-the-project)
 2. [Aims of the project](#aims-of-the-project) 
@@ -15,6 +18,7 @@
  c. [Dataset 3 (recreated based on ShML)](#dataset-3)  
  d. [Dataset 4 (better FPS selection, being created)](#dataset-4)  
  e. [Future Datasets](#future-datasets)  
+6. [Experimental Prediction] (#experimental-prediction)
 
 ## Current state of the project
 The following table gives the best prediction accuracy for each of the main NMR parameters being investigated for the current dataset (3).
@@ -24,7 +28,7 @@ The following table gives the best prediction accuracy for each of the main NMR 
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.25 | 0.23 |
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 3.22 | 4.10 |
 | <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 2.04 | 2.02 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 3.3 | 4.4 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 3.44 | 5.02 |
 
 The corresponding methods are provided in the table below:
 
@@ -51,53 +55,52 @@ Several different representations have been tested so far in the project, each w
 ### Coulomb Matrix
 The coulomb matrix is by far the most simple of the representations tested in the project. It is based on just two terms, the distance between pairs of atoms and the product of their atomic numbers. The matrix is comprised atom-by-atom via the following formula for diagonal and off-diagonal elements. 
 
-![](https://image.ibb.co/johNZe/coulomb_equation.png)
+
+<img src="https://image.ibb.co/johNZe/coulomb_equation.png" width="300">
 
 The representations are generated for each individual atom of interest. The generated coulomb matrix is then centered on that atom, with terms for atoms extending out to the selected cutoff range.
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |:----:|:----:|:----:|
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.39 | 0.43 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 3.00 | 4.85 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | N/A | N/A |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | N/A | N/A |
 
 ### FCHL
 The FCHL representation comes from [this paper](https://aip.scitation.org/doi/10.1063/1.5020710), the name is derived from the initials of the authors. FCHL is a three body representation which means that each term is derived from the interaction between three atoms in the molecule. 
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |:----:|:----:|:----:|
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.25 | 0.23 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 3.32 | 3.03 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 2.17 | 1.88 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | N/A | N/A |
 
 ### SLATM
 The Spectrum of London and Axillrod-Teller-Muto potential (SLATM) is another three body representation. 
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |:----:|:----:|:----:|
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.25 | 0.23 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 3.22 | 4.10 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 2.04 | 2.02 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | N/A | N/A |
 
 ### JACSF
 The JACSF molecular representation is based on atom-centred symmetry functions, adapted specifically for j coupling. The representation is currently being developed, however it is much more suited to application with neural networks, so hasn't been tested much yet. The neural network algorithms are being developed currently.
 
 | NMR Parameter | Mean Absolute Error | Standard Deviation |
 |:----:|:----:|:----:|
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | 0.22 | 0.66 |
-| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 0.22 | 0.66 |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1H$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1H$&space;$\delta$" title="$^1H$ $\delta$" /></a> | N/A | N/A |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^{13}C$&space;$\delta$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^{13}C$&space;$\delta$" title="$^{13}C$ $\delta$" /></a> | N/A | N/A |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^1J_{HC}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^1J_{HC}$" title="$^1J_{HC}$" /></a> Coupling | N/A | N/A |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=$^3J_{HH}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$^3J_{HH}$" title="$^3J_{HH}$" /></a> Coupling | 3.44 | 5.02 |
 
 ## Kernel Ridge Regression
 There are much better explanations of what kernel ridge regression (KRR) is and does, notably [here](https://www.ics.uci.edu/~welling/classnotes/papers_class/Kernel-Ridge.pdf) and [here](https://www.youtube.com/watch?v=XUj5JbQihlU&t=3s&frags=pl%2Cwn). Ridge regression alone is simply mathematical regression using the squared error as the loss function (also referred to as the L2-norm). The essential concept is the kernel trick employed to simplify the mathematics. The kernel trick involves taking the (mathematical) distance between each pair of representations in the dataset and then finding the coefficient matrix to produce the desired output vector from this similarity (or kernel) matrix. This coefficient matrix is found via regression, and determining it is often what is referred to as training.
 
-For the applications in this project we have used the laplacian kernel function
-
-LAPLACIAN KERNEL
+For the applications in this project we have used the laplacian kernel function. NOT FINISHED. . .
 
 
 ## The Datasets
@@ -132,14 +135,30 @@ Dataset 3 is based on the work from [this paper](https://arxiv.org/pdf/1805.1154
 
 The shiftML dataset was used because the published results were good and so present a good opportunity for comparison with our own work. It also presents a significant improvement on dataset 2 in terms of the way the structures were selected. 500 of the structures were randomly selected: this forms the test set. The remaining 2000 were selected via furthest point sampling, which is a method of identifying the least similar molecules in the dataset. This should provide a significant improvement on random selection as it should give a better coverage of the chemical space.
 
-The dataset comprises of only HCNO atoms, and is the current working dataset for the project, all data and graphs in this document are for this dataset
+The dataset comprises of only HCNO atoms, and is the current working dataset for the project.
 
-DATASET STATISTICS ??
 
 ### Dataset 4
 This dataset is currently being produced. We have identified a potentially better method of FPS sampling and we also want to include fluorine atoms in the dataset to expand the applicability.
 
 ### Future Datasets
+Future datasets will be developed based on conclusions drawn from the performance of the current and in-production datasets. However, there are already plans to produce a dataset with a reduced number of unique molecules (~500) but with multiple conformers per molecule, to see what proportion of the prediction error can be removed by taking into account multiple conformers and their relative conformations.
+
+## Experimenal Prediction
+
+### Progesterone
+6 low energy conformers were identified for progesterone through conformational searching using macromodel. These 6 structures were geometry optimised and then NMR calculations were performed on the resulting structures. The resulting NMR calculated values were then boltzman weighted by the relative populations of the conformers at a set temperature. In the same way, the KRR algorithm using the SLATM descriptor was used to predict the chemical shifts for the 6 optimised structures, and the resulting values boltzmann weighted. The two sets of chemical shifts were then compared to the experimental values determined by members of the Butts group. The accuracy of the ML KRR algorithm to experiment was 3.47ppm and 0.28ppm for Carbon and Proton respectively.
+
+![](https://image.ibb.co/mBbBVU/progesterone_ML_DFT_EXP.png)
+
+
+
+### Streptomycin
+The process was repeated for streptomycin, however 72 low energy conformers were selected. The results of the comparison are shown below. The accuracy of the ML KRR algorithm to experiment was 2.82ppm and 0.48ppm for Carbon and Proton respectively.
+![](https://image.ibb.co/hCBdAU/streptmomycin_ML_DFT_EXP.png)
+
+ 
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTcyOTcyNTczOCwtNjIzOTA0MTUzLDE5Mz
 ExMDIzMjksLTIwNzk4Mzk4MDIsMTQ3MzMxMDI1LDg5ODMzMTY5
