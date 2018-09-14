@@ -1,4 +1,4 @@
-# Extra Info and Data SMASH 2018
+# Extra Info SMASH 2018 "Predicting NMR Parameters Through Machine Learning"
 
 ### Will Gerrard
 ### wg12385@bristol.ac.uk
