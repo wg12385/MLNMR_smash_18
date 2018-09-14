@@ -1,7 +1,7 @@
 # Extra Info and Data SMASH 2018
 
-# Will Gerrard
-# wg12385@bristol.ac.uk
+## Will Gerrard
+## wg12385@bristol.ac.uk
 
 ## Contents
 1. [Current state of the project](#current-state-of-the-project)
