@@ -120,6 +120,11 @@ For the applications in this project we have used the laplacian kernel function,
 ### Hyper Parameter Searching
 Three main input parameters are needed for the KRR algorithm using the SLATM descriptor; the cutoff radius for the SLATM representation, the width of the kernel function (sigma) and the regularisation factor for the kernel function. These three parameters are crucial for good training, and so optimal values need to be determined before any real results can be produced. At the moment this is done via a simple grid-search over the three values.
 
+### Cross Validation
+The testing and hyper parameter searching were all performed using 5-fold cross validation. This is a process by which all of the dataset is used for testing without biasing the learning by including testing data in with the training data. The final validation set was used after the hyper parameter grid-search to produce the final accuracy.
+
+<img src="https://image.ibb.co/j2ZZ4z/cv.png" width="400">
+
 ## The Datasets
 
 ### Dataset 1
