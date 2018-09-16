@@ -19,14 +19,14 @@
   c. [SLATM](#slatm)  
   d. [JACSF](#jacsf)  
 4. [Kernel Ridge Regression](#kernel-ridge-regression)  
-  a. [Hyper Parameter Searching] (#hyper-parameter-searching) 
+  a. [Hyper Parameter Searching](#hyper-parameter-searching) 
 5. [The Datasets](#the-datasets)  
  a. [Dataset 1 (pre-initial test set)](#dataset-1)  
  b. [Dataset 2 (First test set)](#dataset-2)  
  c. [Dataset 3 (recreated based on ShML)](#dataset-3)  
  d. [Dataset 4 (better FPS selection, being created)](#dataset-4)  
  e. [Future Datasets](#future-datasets)  
-6. [Experimental Prediction] (#experimental-prediction)
+6. [Experimental Prediction](#experimental-prediction)
 
 ## Current state of the project
 The following table gives the best prediction accuracy for each of the main NMR parameters being investigated for the current dataset (Dataset 3).
