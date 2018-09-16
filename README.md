@@ -2,10 +2,8 @@
 
 ### Will Gerrard
 ### wg12385@bristol.ac.uk
-# Extra Info SMASH 2018 "Predicting NMR Parameters Through Machine Learning"
 
-### Will Gerrard
-### wg12385@bristol.ac.uk
+*** If you would like to see how the ML prediction performs for a specific molecule, please email me with an .xyz file (or PDB, Mol2, etc) and ill reply with the chemical shifts as soon as possible, the current prediction routine only takes a few seconds ! ***
 
 ## Contents
 1. [Current state of the project](#current-state-of-the-project)
